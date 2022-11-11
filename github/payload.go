@@ -10,6 +10,7 @@ type CheckRunPayload struct {
 		NodeID      string    `json:"node_id"`
 		Name        string    `json:"name"`
 		HeadSHA     string    `json:"head_sha"`
+		ExternalID  string    `json:"external_id"`
 		Status      string    `json:"status"`
 		Conclusion  string    `json:"conclusion"`
 		URL         string    `json:"url"`
